@@ -1,0 +1,74 @@
+.cards {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.3s;
+    padding-bottom: 10px;
+
+    &:hover {
+        border: 1px solid #EB6F4E;
+    }
+
+    img {
+        width: 350px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .desc {
+        text-align: center;
+
+        h2 {
+            font-family: 'Roboto' sans-serif;
+            font-size: 20px;
+            font-weight: 500;
+            color: black;
+            padding-bottom: 10px;
+            cursor: pointer;
+        }
+
+        p {
+            font-family: 'Roboto' sans-serif;
+            font-size: 15px;
+            font-weight: 500;
+            color: rgb(87, 82, 82);
+            padding-bottom: 10px;
+            text-transform: capitalize;
+        }
+
+        span {
+            font-family: 'Roboto' sans-serif;
+            font-size: 15px;
+            font-weight: 500;
+            color: rgb(45, 23, 170);
+            padding-bottom: 10px;
+        }
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        gap: 10px;
+        padding-top: 10px;
+
+        button {
+            width: 90%;
+            padding: 12px 22px;
+            color: white;
+            border: none;
+            cursor: pointer;
+            background-color: #EB6F4E;
+            transition: 0.3s;
+
+            &:hover {
+                background-color: #f75021;
+
+            }
+        }
+
+    }
+}

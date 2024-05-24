@@ -1,0 +1,19 @@
+.dash {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        font-family: 'Cinzel' sans-serif;
+        font-size: 32px ;
+        font-weight: 400;
+    }
+}
+.dashy {
+    width: 90%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    .containert {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        background-image: url(https://preview.colorlib.com/theme/wines/images/hero_2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 600px;
+        background-position: center;
+        position: relative;
+
+        .op {
+            width: 100%;
+            min-height: 600px;
+            background: rgb(0, 0, 0, 0.52);
+
+            .writes {
+                width: 80%;
+                position: absolute;
+                right: 50px;
+                bottom: 100px;
+                text-align: center;
+
+                h1 {
+                    font-family: 'Cinzel' sans-serif;
+                    font-size: 24px;
+                    font-weight: 300;
+                    color: white;
+                    display: flex;
+                    align-items: center;
+                justify-content: center;
+                }
+
+                h2 {
+                    font-family: 'Montserrat' sans-serif;
+                    font-size: 80px;
+                    font-weight: 900;
+                    color: white;
+                    line-height: 96px;
+              
+                }
+            }
+        }
+
+    }
+}

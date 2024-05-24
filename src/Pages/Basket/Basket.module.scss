@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.bask{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        font-family: 'Cinzel' sans-serif;
+        font-size: 32px ;
+        font-weight: 400;
+    }
+}
+.map {
+    width: 90%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

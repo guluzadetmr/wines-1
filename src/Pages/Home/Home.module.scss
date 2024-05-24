@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.pro {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+        font-family: 'Cinzel' sans-serif;
+        font-size: 32px;
+        font-weight: 400;
+        color: black;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    p {
+        font-family: 'Roboto' sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        color: black;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    span {
+        cursor: pointer;
+    }
+}
+
+.box {
+    width: 90%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.five {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    min-height: 100vh;
+
+    .containeri {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        .boxes {
+            width: 100%;
+            display: flex;
+            gap: 10px;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 400px;
+            flex-direction: column;
+
+            .productlarrrrrrr {
+                display: flex;
+                width: 60%;
+                justify-content: center;
+                gap: 20px;
+
+                img {
+                    width: 100%;
+                }
+
+                .pics {
+                    h2 {
+                        font-family: 'Cinzel' sans-serif;
+                        font-size: 16px;
+                        font-weight: 500;
+                        color: black;
+                        padding-bottom: 10px;
+                    }
+
+                    h3 {
+                        font-family: 'Cinzel' sans-serif;
+                        font-size: 15px;
+                        font-weight: 500;
+                        color: black;
+                        padding-bottom: 10px;
+                    }
+
+                    h4 {
+                        font-family: 'Roboto' sans-serif;
+                        font-size: 15px;
+                        font-weight: 500;
+                        padding-bottom: 10px;
+                    }
+                }
+            }
+
+            .basliqqqq {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                flex-direction: column;
+
+            }
+
+
+
+
+
+        }
+
+        .img {
+            width: 50px;
+            display: flex;
+            gap: 10px;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 400px;
+
+        }
+
+    }
+}
