@@ -39,25 +39,19 @@ const Home = () => {
         }
       });
   };
-  const addToWish = (product) => {
+  const addToWish = (item) => {
     axios
       .get("https://664ef629fafad45dfae1b674.mockapi.io/wishlist")
       .then((res) => {
-        const db = res.data;
-        const existingData = db.find((item) => item.id == product.id);
-        if (existingData) {
-          axios.put(`/${existingData.id}`, {
-            ...existingData,
-            count: existingData.count + 1,
-          });
-        } else {
-          axios.post(`https://664ef629fafad45dfae1b674.mockapi.io/wishlist`, {
-            ...product,
-            count: 1,
-          });
-        }
-      });
-  };
+        const db = res.data
+      const existingFile = db.find(x => x.id == item.id)
+      if(existingFile){
+        alert('It is already there') 
+      } else{
+        axios.post('https://664ef629fafad45dfae1b674.mockapi.io/wishlist', item)
+      }
+    })
+  }
 
   return (
     <div>
